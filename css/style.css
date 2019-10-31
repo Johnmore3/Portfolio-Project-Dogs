@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: AppleGothic;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 5em;
+}
+
+.navbar-nav li {
+  justify-content: center;
+  display: flex;
+}
+.navbar-nav li a {
+  color: black;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/homepagebanner.svg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 60px 0px;
+}
+.banner .banner-text {
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+}
+.banner .banner-text h1 {
+  font-size: 1em;
+  padding: 0px 10%;
+}
+.banner .banner-text a button {
+  background-color: #98C6C1;
+  border: #98C6C1;
+  width: 50%;
+}
+
+.row1 a {
+  color: white;
+}
+.row1 div {
+  padding: 20px 0px;
+  background-color: #98C6C1;
+}
+.row1 div:nth-child(2) {
+  background-color: rgba(152, 198, 181, 0.69);
+}
+
+@media screen and (min-width: 1000px) {
+  .banner {
+    padding-bottom: 10%;
+  }
+  .banner a button {
+    margin: 10px 300px;
+    width: 20%;
+    height: 50px;
+  }
+  .banner h1 {
+    font-size: 2em;
+    padding-right: 60%;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

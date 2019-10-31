@@ -1,0 +1,21 @@
+// media query for screens min 1000 and larger screens
+
+@media screen and (min-width: $break-large) {
+
+    .banner{
+        padding-bottom: 10%;
+
+        a button{
+            margin: 10px 300px;
+            width: 20%;
+            height: 50px;
+        }
+
+        h1{
+            font-size: 2em;
+            padding-right: 60%;
+            padding-top: 10%;
+            padding-left: 10%;
+        }
+    }
+  }

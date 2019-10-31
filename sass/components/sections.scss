@@ -1,0 +1,18 @@
+
+.row1{
+    a{
+        color: white;
+    }
+    
+    div{
+        @include row;
+        background-color: $mainblue;
+    }
+
+    div:nth-child(2){
+        background-color: $secondaryblue;
+    }
+}
+
+
+

@@ -1,0 +1,33 @@
+
+.logo{
+    width: 5em;
+}
+
+.navbar-nav{
+    li{
+        justify-content: center;
+        display: flex;
+        
+        a{
+            color: black;
+        }
+    }
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/homepagebanner.svg");
+    @include banner-image;
+    .banner-text{
+        @include banner-letter;
+        h1{
+            font-size: 1em;
+            padding: 0px 10%;
+        }
+
+        a button{
+            @include button;
+            width: 50%;
+        }
+    }
+}
+
