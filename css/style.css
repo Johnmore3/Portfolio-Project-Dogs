@@ -55,19 +55,58 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
+  .logo {
+    width: 150px;
+  }
+
+  .navbar-nav li a {
+    border-right: 2px solid #98C6C1;
+    border-radius: 2%;
+  }
+
+  .nav-item:last-of-type a {
+    border-color: transparent;
+  }
+
   .banner {
-    padding-bottom: 10%;
+    padding-bottom: 20%;
   }
-  .banner a button {
-    margin: 10px 300px;
+  .banner .banner-text {
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  }
+  .banner .banner-text h1 {
+    font-size: 30px;
+    padding: 0px 50% 0px 0px;
+  }
+  .banner .banner-text a button {
+    background-color: #98C6C1;
+    border: #98C6C1;
+    margin: 0px 50% 0px 0px;
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .banner {
+    padding-bottom: 15%;
+  }
+  .banner .banner-text {
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  }
+  .banner .banner-text h1 {
+    font-size: 40px;
+    padding: 5% 60% 0px 10%;
+  }
+  .banner .banner-text a button {
+    background-color: #98C6C1;
+    border: #98C6C1;
+    margin: 0px 60% 0px 10%;
     width: 20%;
-    height: 50px;
-  }
-  .banner h1 {
-    font-size: 2em;
-    padding-right: 60%;
-    padding-top: 10%;
-    padding-left: 10%;
   }
 }
 
