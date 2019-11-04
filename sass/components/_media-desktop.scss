@@ -2,6 +2,11 @@
 
 @media screen and (min-width: $break-large) {
 
+
+/********************
+nav bar and banner 
+*****************/
+
     .logo{
         width: 150px;
     }
@@ -21,11 +26,10 @@
 
     .banner{
         padding-bottom: 20%;
-
         .banner-text{
             @include banner-letter;
             h1{
-                font-size: 30px;
+                font-size: 20px;
                 padding: 0px 50% 0px 0px;
             }
     
@@ -36,5 +40,49 @@
             }
         }
     }
+
+
+/********************
+ROWS
+*****************/
+
+    
+.row1{
+    a{
+        color: white;
+        font-size: 30px;
+    }
+}
+
+.row2{
+    .row2-text{
+      font-size: 25px;  
+    }
+}
+
+.row4 div{
+    border-top: 1px solid $darkergray;
+    border-right: 1px solid $darkergray;
+}
+
+.row5{
+    @include rowdesktop;
+    div{
+        margin-right: 50%;
+    }
+    div a{
+        width: 100%;
+    }
+}
+
+.row6{
+    h1{
+        font-size: 30px;
+    }
+    a{
+        font-size: 30px;
+    }
+}
+
   }
 

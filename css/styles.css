@@ -1,0 +1,25 @@
+/* ABOUT SECTION ROW */
+
+.row2about div h1,
+.row4about div h1,
+.row5about h1{
+        font-size: 1.5em;
+}
+.row2about div p,
+.row4about div p{
+        font-size: .7rem;
+    }
+
+@media screen and (min-width:1000px) {
+
+.row2about div h1,
+.row4about div h1,
+.row5about h1{
+        font-size: 1.5em;
+}
+.row2about div p,
+.row4about div p{
+        font-size: 1rem;
+    }
+
+}

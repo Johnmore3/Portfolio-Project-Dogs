@@ -49,19 +49,14 @@ nav {
 .banner .banner-text a button {
   background-color: #98C6C1;
   border: #98C6C1;
-  width: 50%;
+  width: 40%;
 }
 
 .bannerabout {
-  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.3), rgba(51, 51, 51, 0.3)), url("../../img/bannerabout.jpg");
+  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.493), rgba(51, 51, 51, 0.445)), url("../../img/bannerabout.jpg");
 }
 .bannerabout .banner-text h1 {
   font-size: 2em;
-}
-.bannerabout .banner-text h1:after {
-  content: " ";
-  display: block;
-  border: 2px solid black;
 }
 
 .row1 a {
@@ -137,6 +132,7 @@ nav {
 }
 
 .row6 {
+  padding: 20px 0px;
   background-color: #98C6C1;
 }
 .row6 h1 {
@@ -242,22 +238,23 @@ nav {
     height: 50px;
   }
 
-  .bannerabout .banner-text {
-    font-size: 2em;
+  .bannerabout {
+    /********************
+    ROWS
+    *****************/
   }
-
-  /********************
-  ROWS
-  *****************/
-  .row2 {
+  .bannerabout .banner-text h1 {
+    font-size: 5em;
+  }
+  .bannerabout .row2 {
     padding: 50px 100px !important;
   }
-  .row2 .row2-text {
+  .bannerabout .row2 .row2-text {
     font-size: 30px;
     padding: 50px 10px;
     margin-top: 10px;
   }
-  .row2 form {
+  .bannerabout .row2 form {
     padding: 30px 50px;
   }
 }
@@ -284,28 +281,29 @@ footer i {
 }
 .row1about p {
   color: white;
-  font-size: 17px;
+  font-size: 10px;
 }
 .row1about a {
   color: #98C6C1;
   border-radius: 10px;
   background-color: white;
+  font-size: 10px;
 }
 
 .row2about {
   padding: 20px 0px;
-}
-.row2about img {
-  height: 200px;
 }
 
 .row3about {
   padding: 20px 0px;
   background-color: rgba(107, 122, 143, 0.158);
 }
-.row3about img {
-  width: 50%;
-  margin: auto;
+.row3about div img {
+  width: 100%;
+}
+
+.rowimagesabout {
+  padding: 20px 0px;
 }
 
 .row4about {
@@ -323,8 +321,12 @@ footer i {
   border: none;
   background-color: transparent;
 }
+.row5about .card .card-img-top {
+  width: 50%;
+}
 .row5about .card .card-body {
   background-color: rgba(216, 216, 216, 0.233);
+  width: 50%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -336,6 +338,18 @@ footer i {
   .row2about p {
     font-size: 2em;
   }
+
+  .row4about div p {
+    padding: 0px 10%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .row2about {
+    padding: 50px 0px;
+  }
+  .row2about img {
+    height: 300px;
+  }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

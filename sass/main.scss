@@ -1,11 +1,16 @@
-@import './base/variables.scss';
-@import './base/mixin.scss';
+@import 'base/variables.scss';
+@import 'base/mixin.scss';
 
 
 //components 
 
-@import './components/navigation.scss';
-@import './components/sections.scss';
-@import './components/media-ipad.scss';
-@import './components/media-desktop.scss';
-@import './components/media-extralarge.scss';
+@import 'components/navigation.scss';
+@import 'components/sections.scss';
+@import 'components/media-ipad.scss';
+@import 'components/media-desktop.scss';
+@import 'components/media-extralarge.scss';
+@import 'components/footer.scss';
+
+
+@import 'about/aboutsection.scss';
+@import 'about/desktop-about.scss';
