@@ -1,18 +1,40 @@
 footer{
     background-color: rgba(0, 0, 0, 0.486);
-    div h3{
+}
+ footer div div h3{
         font-size: 15px;
         color: white;
+        @include titles-text;
     }
 
-    div p{
+footer div div p{
         font-size: 10px;
         color: white;
     }
 
-    i{
+footer i{
         color: white;
         margin-right: 5px;
         font-family: $mainfont;
     }
+
+
+@media screen and (min-width: $break-large) {
+footer {
+    div h3{
+        font-size:2em;
+    }
+    div {
+        p{
+        font-size: 1rem;
+        padding: 0px 20%;
+        }
+     }
+
+     .fa{
+        font-size: 25px
+    }
+    
+}
+
 }

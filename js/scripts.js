@@ -15,4 +15,19 @@ $(document).ready(function() {
           $('#loader').html('');
        });
     });
+
+
+
+    $('#dogsavaliablebttn').click(function(){
+      $('#dogsavaliablebttn').click(function(){
+         $('.alert').show()
+     }) 
+
+   });
+
+
+
+
  });
+
+

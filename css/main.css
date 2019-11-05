@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.alert {
+  display: none;
+}
+
 .logo {
   width: 5em;
 }
@@ -28,7 +32,7 @@ nav {
 }
 
 .banner {
-  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.3), rgba(51, 51, 51, 0.3)), url("../../img/dog-2785074_640.jpg");
+  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.3), rgba(51, 51, 51, 0.3)), url("../../img/animal-animal-lover-animal-photography-1904105.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,6 +61,10 @@ nav {
 }
 .bannerabout .banner-text h1 {
   font-size: 2em;
+}
+
+.banneradopt {
+  background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.493), rgba(51, 51, 51, 0.445)), url("../../img/banneradopt.jpg");
 }
 
 .row1 a {
@@ -122,7 +130,7 @@ nav {
   font-size: 30px;
   text-align: center;
   color: #98C6C1;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 .row5 a {
   background-color: #98C6C1;
@@ -244,7 +252,7 @@ nav {
     *****************/
   }
   .bannerabout .banner-text h1 {
-    font-size: 5em;
+    font-size: 3em;
   }
   .bannerabout .row2 {
     padding: 50px 100px !important;
@@ -257,24 +265,44 @@ nav {
   .bannerabout .row2 form {
     padding: 30px 50px;
   }
+  .bannerabout .row5 h1 {
+    font-size: 2em;
+  }
 }
 footer {
   background-color: rgba(0, 0, 0, 0.486);
 }
-footer div h3 {
+
+footer div div h3 {
   font-size: 15px;
   color: white;
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 30px;
 }
-footer div p {
+
+footer div div p {
   font-size: 10px;
   color: white;
 }
+
 footer i {
   color: white;
   margin-right: 5px;
   font-family: AppleGothic;
 }
 
+@media screen and (min-width: 1000px) {
+  footer div h3 {
+    font-size: 2em;
+  }
+  footer div p {
+    font-size: 1rem;
+    padding: 0px 20%;
+  }
+  footer .fa {
+    font-size: 25px;
+  }
+}
 .row1about {
   padding: 20px 0px;
   background-color: #98C6C1;
@@ -300,10 +328,6 @@ footer i {
 }
 .row3about div img {
   width: 100%;
-}
-
-.rowimagesabout {
-  padding: 20px 0px;
 }
 
 .row4about {
@@ -349,6 +373,84 @@ footer i {
   }
   .row2about img {
     height: 300px;
+  }
+
+  .carouselrow {
+    padding: 20px 0px;
+  }
+}
+.row2adopt {
+  padding: 20px 0px;
+  background-color: rgba(107, 122, 143, 0.158);
+}
+
+.row2adopt div button {
+  background-color: #98C6C1;
+  border: #98C6C1;
+  color: white;
+}
+
+.row4adopt {
+  padding: 20px 0px;
+  background-color: #98C6C1;
+}
+.row4adopt h1 {
+  color: white;
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 30px;
+}
+.row4adopt p {
+  color: white;
+}
+
+.row5adopt {
+  padding: 20px 0px;
+}
+.row5adopt h1 {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 30px;
+}
+.row5adopt a {
+  background-color: #98C6C1;
+  border: #98C6C1;
+  color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .row2adopt {
+    padding: 120px 0px;
+  }
+  .row2adopt div p {
+    padding: 0px 20%;
+    font-size: 1.5em;
+  }
+
+  .row3adopt {
+    padding: 120px 0px;
+  }
+  .row3adopt .media-container {
+    margin: 0px 10%;
+    background-color: rgba(107, 122, 143, 0.158);
+  }
+  .row3adopt .media-container .media-body p {
+    font-size: 1.5em;
+    color: #98C6C1;
+  }
+  .row3adopt img {
+    width: 300px;
+  }
+
+  .row4adopt,
+.row5adopt {
+    padding: 120px 0px;
+  }
+  .row4adopt h1,
+.row5adopt h1 {
+    font-size: 2em;
+  }
+  .row4adopt p,
+.row5adopt p {
+    font-size: 1.5em;
   }
 }
 

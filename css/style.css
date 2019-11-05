@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.alert {
+  display: none;
+}
+
 .logo {
   width: 5em;
 }
@@ -335,6 +339,51 @@ footer i {
 
   .row2about p {
     font-size: 2em;
+  }
+}
+.row2adopt {
+  padding: 20px 0px;
+  background-color: rgba(107, 122, 143, 0.158);
+}
+.row2adopt div a {
+  background-color: #98C6C1;
+  border: #98C6C1;
+  color: white;
+}
+
+.row4adopt {
+  padding: 20px 0px;
+  background-color: #98C6C1;
+}
+.row4adopt h1 {
+  color: white;
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 30px;
+}
+.row4adopt p {
+  color: white;
+}
+
+.row5adopt {
+  padding: 20px 0px;
+}
+.row5adopt h1 {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 30px;
+}
+.row5adopt a {
+  background-color: #98C6C1;
+  border: #98C6C1;
+}
+
+@media screen and (min-width: 1000px) {
+  .row3adopt {
+    padding: 20px 0px;
+    margin: 30px 20%;
+    background-color: rgba(107, 122, 143, 0.158);
+  }
+  .row3adopt img {
+    width: 300px;
   }
 }
 

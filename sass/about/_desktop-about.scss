@@ -29,5 +29,8 @@
             height: 300px;
         }
     }
-    
+
+    .carouselrow{
+        @include row;
+    }
 }
