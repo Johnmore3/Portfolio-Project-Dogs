@@ -270,37 +270,24 @@ nav {
   }
 }
 footer {
-  background-color: rgba(0, 0, 0, 0.486);
-}
-
-footer div div h3 {
-  font-size: 15px;
-  color: white;
-  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
-  font-size: 30px;
+  background-color: rgba(141, 141, 141, 0.349);
 }
 
 footer div div p {
-  font-size: 10px;
-  color: white;
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 30px;
+  font-size: 0.5em;
+  color: #98C6C1;
+  margin: 0px 30%;
 }
 
-footer i {
-  color: white;
-  margin-right: 5px;
-  font-family: AppleGothic;
+footer .fa {
+  color: #98C6C1;
 }
 
-@media screen and (min-width: 1000px) {
-  footer div h3 {
-    font-size: 2em;
-  }
-  footer div p {
-    font-size: 1rem;
-    padding: 0px 20%;
-  }
-  footer .fa {
-    font-size: 25px;
+@media screen and (min-width: 1300px) {
+  footer div div p {
+    margin: 0px 40%;
   }
 }
 .row1about {

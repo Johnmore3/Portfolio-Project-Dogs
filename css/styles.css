@@ -11,6 +11,10 @@
         font-size: .7rem;
     }
 
+.alert{
+margin-bottom: 0px!important;
+}
+
 @media screen and (min-width:1000px) {
 
 .row2about div h1,
