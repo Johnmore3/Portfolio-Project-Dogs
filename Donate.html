@@ -1,18 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Donate</title>
-
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-  </head>
-  <body>
-
+<head>
+    <head>
+        <meta charset="utf-8">
+        <title>Street Dog Foundation</title>
+      
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-512x512.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/apple-touch-icon.png">    
+        <link rel="manifest" href="./favicon_io/site.webmanifest">
+      
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <!-- Bootstrap cdn-->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- font awesome-->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- css-->
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+      </head>
+      
 <!--Nav bar-->
     <nav class="navbar navbar-expand-lg px-3">
         <a class="navbar-brand" href="#"></a>
@@ -53,43 +60,229 @@
 	<div class="row">
 		<div class="col-md-12">
 			<h3>
-				 Lorem ipsum dolor sit amet.
+				 
 			</h3>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
 			<h3>
-				 Lorem ipsum dolor sit amet.
+				
 			</h3>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<div class="jumbotron">
-				<h2>
-					Hello, world!
-				</h2>
-				<p>
-					Paypal donation
-				</p>
-				<p>  <a class="btn btn-primary btn-large" href="#">Give by month</a>
-					<a class="btn btn-primary btn-large" href="#">Give once</a>
-				</p>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<div class="jumbotron">
-				<h2>
-					Hello, world!
-				</h2>
-				<p>
-					Paypal donation
-				</p>
-				<p>
-                    <a class="btn btn-primary btn-large" href="#">Give by month</a>
-					<a class="btn btn-primary btn-large" href="#">Give once</a>
-				</p>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Personal Information</h3>
+    </div>
+  
+    <div class="panel-body">
+  
+  <div class="bodyTest">
+    <form class="">
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <!-- first name input-->
+      <div class="form-group">
+          <label for="firstname" class="control-label">First Name</label>
+          <div class="">
+              <input id="first-name" name="firstname" type="text" autocomplete="first-name" placeholder="first ame" class="form-control">
+              <p class="help-block"></p>
+          </div>
+      </div>
+    </div>
+  
+  
+  <div class="col-sm-6">
+    <div class="form-group">
+        <label for="lastname" class="control-label">Last Name</label>
+        <div class="">
+            <input id="last-name" name="lastname" type="text" autocomplete="last-name" placeholder="last name" class="form-control">
+            <p class="help-block"></p>
+        </div>
+    </div>
+  </div>
+  </div>
+         <!-- last name input-->
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <!-- company input-->
+      <div class="control-group">
+          <label for="company" class="control-label ">Company / Organization</label>
+          <div class="">
+              <input id="company" name="company" type="text" autocomplete="organization" placeholder="company or organization (optional)" class="form-control">
+              <p class="help-block"></p>
+          </div>
+      </div>
+    </div>
+  </div>
+         <!-- address-line1 input-->
+         <div class="row">
+  
+           <div class="col-sm-6">
+             <div class="control-group">
+                 <label class="control-label ">Address Line 1</label>
+                 <div class=" ">
+                     <input id="address-line1" name="address-line1" type="text" autocomplete="address-line1" placeholder="address line 1" class="form-control">
+                     <p class="help-block">street address, P.O. Box, c/o</p>
+                 </div>
+             </div>
+           </div>
+           <!-- address-line2 input-->
+          <div class="col-sm-6">
+            <div class="control-group">
+               <label class="control-label">Address Line 2</label>
+               <div class="">
+                   <input id="address-line2" name="address-line2" type="text" autocomplete="address-line2" placeholder="address line 2" class="form-control">
+                   <p class="help-block">apartment, suite , unit, building, floor, etc.</p>
+               </div>
+           </div></div>
+  
+         </div>
+  
+         <div class="row">
+  
+  <div class="col-sm-6">
+    <div class="control-group">
+        <label class="control-label">City / Town</label>
+        <div class="">
+            <input id="city" name="city" type="text" autocomplete="address-level2" placeholder="city" class="form-control">
+            <p class="help-block"></p>
+        </div>
+    </div>
+    <!-- region input-->
+  </div>
+  
+  
+  <div class="col-sm-6">
+  
+           <div class="control-group">
+               <label class="control-label">State / Province</label>
+               <div class="">
+                   <input id="region" name="region" type="text" autocomplete="address-level1" placeholder="state / province / region" class="form-control">
+                   <p class="help-block"></p>
+               </div>
+           </div>
+  </div>
+  
+  
+  <div class="col-sm-6">
+    <div class="control-group">
+        <label class="control-label ">Zip / Postal Code</label>
+        <div class="">
+            <input id="postal-code" name="postal-code" type="text" autocomplete="postal-code" placeholder="zip or postal code" class="form-control">
+            <p class="help-block"></p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-6">
+    <!-- country select -->
+    <div class="control-group">
+        <label class="control-label ">Country</label>
+        <div class="">
+            <input id="country" name="country" type="text" autocomplete="country-name" placeholder="country" class="form-control">
+  </div>
+         </div>
+  
+  
+         <!-- postal-code input-->
+  
+  
+             </div>
+         </div>
+  
+  </form>
+  </div>
+  
+          </div>
+  </div>
+  
+  <!-- panel -->
+  
+        </div>
+        <div class="col-xs-12">
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Donation Details</h3>
+              </div>
+  <div class="panel-body">
+        <div class="col-sm-6">
+          <div class="form-group">
+              <label for="cardNumber">Amount</label>
+              <div class="input-group">
+                  <input type="text" class="form-control" name="Amount"   />
+                  <span class="input-group-addon"><i class="fa fa-usd"></i></span>
+              </div>
+          </div>
+        </div>
+  
+  
+  <div class="col-sm-6">
+    <label for="donateTye">Frequency</label>
+        <select name="donateType" id="donateType" class="form-control">
+  
+        <option value="once">Once</option>
+  
+        <option value="weekly">Weekly</option>
+    <option value="Fortnightly">Fortnightly</option>
+    <option value="Monthly">Monthly</option>
+  
+        </select>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+        </div>
+  
+          
+          </div>
+      </div>
+  </div>
+            </section>
+            <div id="paypal-button-container"></div>
+            <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+            <script>
+              paypal.Buttons({
+              style: {
+              shape: 'pill',
+              color: 'blue',
+              layout: 'vertical',
+              label: 'paypal',
+            
+              },
+              createOrder: function(data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '1'
+                    }
+                }]
+            });
+           },
+               onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+                alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+              }
+            }).render('#paypal-button-container');
+            </script>
+            <script src="scripts.js" type="text/javascript"></script>
+          
+            </div>
+            </form>
+          </div>
+        </div>
+		   </div>      
 			</div>
 		</div>
 	</div>
@@ -99,4 +292,49 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
+  <footer class="pt-5 pb-5">
+      <div class="row row-content row7">
+              <div class="col row7-col1">
+                  <h3 class="text-center">About Us</h3>
+                  <p class="text-center">
+                      Founded by Dawn Trimmel and David Reese in 2011, 
+                      ISDF’s main mission is to raise awareness of issues facing dogs 
+                      around the world. We believe that change begins with awareness
+                  </p>
+                  <div class="row justify-content-center mb-2">
+                      <i class="fa fa-envelope"> trimmel@usa.net</i>
+                  </div>
+                  <div class="row justify-content-center">
+                      <i class="fa fa-phone row"> 414-426-4148</i>
+                  </div>
+              </div>
+              <div class="col text-center social">
+                  <h3 class="mb-3">Let's get social</h3>
+                      <i class="fa fa-facebook-f"></i>
+                      <i class="fa fa-instagram"></i>
+                      <i class="fa fa-google mb-5"></i><br>
+                  </div>
+<footer class="pt-4 pb-4">
+      <div class="d-flex justify-content-center row">
+          <div class="col-12 text-center">
+              <p class="mb-3">
+                  Founded by Dawn Trimmel and David Reese in 2011, 
+                  ISDF’s main mission is to raise awareness of issues facing dogs 
+                  around the world. We believe that change begins with awareness
+              </p>
+          </div>
+          <div class="col-12 text-center">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+          </div>
+
+      </div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>
